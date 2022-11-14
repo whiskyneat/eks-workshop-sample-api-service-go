@@ -15,7 +15,7 @@ func main() {
 
 		f := fib()
 
-		res := &response{Message: "Hello World"}
+		res := &response{Message: "Docker Increase Rate Limit :P "}
 
 		for _, e := range os.Environ() {
 			pair := strings.Split(e, "=")
